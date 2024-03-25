@@ -29,7 +29,7 @@
                         const previousSortOrder = [...this.sortOrder]
                         this.sortOrder = this.computeSortOrderFromChildren()
 
-                        if (!this.wireComponent) {
+                        if (!this.$wire) {
                             return
                         }
 
